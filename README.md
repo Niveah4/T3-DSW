@@ -16,12 +16,13 @@ Web service para gerenciar tarefas da SPA React.
 
 ## Evidências
 As evidências estão organizadas na pasta `assets/`:
-- ![GET](assets/GET_inicial.png) - Listagem vazia antes de inserir tarefas
-- ![POST](assets/Post.png) - Criação de uma tarefa
-- ![PUT](assets/Put.png) - Atualização de uma tarefa
-- ![DELETE](assets/Delete.png) - Exclusão de uma tarefa
-- ![GET](assets/GET_apos_delete.png) - Listagem vazia após deletar todas as tarefas
-- ![SPA](assets/spa.png) - Interface da SPA com uma tarefa adicionada
+- ---
+- <img src="assets/GET_inicial.png" alt="[GET]" width="300"/> - Listagem vazia antes de inserir tarefas
+- <img src="assets/Post.png" alt="[POST]" width="300"/> - Criação de uma tarefa
+- <img src="assets/Put.png" alt="[PUT]" width="300"/> - Atualização de uma tarefa
+- <img src="assets/Delete.png" alt="[DELETE]" width="300"/> - Exclusão de uma tarefa
+- <img src="assets/GET_apos_delete.png" alt="[GET]" width="300"/> - Listagem vazia após deletar todas as tarefas
+- <img src="assets/spa.png" alt="[SPA]" width="300"/> - Interface da SPA com uma tarefa adicionada
 
 ## Sequência da SPA
 Veja a sequência completa de uso da SPA em: [Apresentação SPA](assets/Apresentacao_SPA_Niveah4_500028.pdf)
