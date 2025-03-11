@@ -9,13 +9,13 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Permitir origem do React
-              .AllowAnyHeader()                     // Permitir qualquer cabeçalho
-              .AllowAnyMethod();                    // Permitir GET, POST, PUT, DELETE, etc.
+        policy.WithOrigins("http://localhost:3000") 
+              .AllowAnyHeader()                     
+              .AllowAnyMethod();                    
     });
 });
 
-builder.WebHost.UseUrls("http://*:80");
+builder.WebHost.UseUrls("http://localhost:5256");
 
 var app = builder.Build();
 
@@ -30,7 +30,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowReactApp"); // Aplicar a política de CORS antes das rotas
+app.UseCors("AllowReactApp"); 
 app.UseAuthorization();
 app.MapControllers();
 
